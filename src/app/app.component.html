@@ -1,0 +1,15 @@
+
+<div class="border border-primary border-2 my-4 ms-4 me-4">
+<app-user-input (wordSubmitted)="onWordSubmitted($event)"></app-user-input>
+<div class="row">
+  <div class="col-md-6">
+
+    <app-even-length-words [evenWords]="evenLengthWords"></app-even-length-words>
+  </div>
+  <div class="col-md-6">
+
+    <app-odd-length-words [oddWords]="oddLengthWords"></app-odd-length-words>
+</div>
+</div>
+</div>
+
